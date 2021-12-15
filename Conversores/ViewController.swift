@@ -116,7 +116,7 @@ class ViewController: UIViewController {
         guard let distance = Double(tfValue.text!) else {return}
         
         if btUnit1.alpha == 1.0 {
-            lbResultUnit.text = "Kilômetro"
+            lbResultUnit.text = "Kilometro"
             lbResult.text = String(distance / 1000.0)
         } else {
             lbResultUnit.text = "Metros"
